@@ -1,22 +1,22 @@
 /* 
 font-family: 'Open Sans', sans-serif;
  */
-
 body{
-    font-family: 'Open Sans', sans-serif;
+/*     font-family: 'Open Sans', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
     line-height: 20px;
 }
 
 header{
-    background-color: rgb(46, 138, 243);
+    background-color: black;
     padding: 1em 0;
 }
 
 /* 1em => 16px */
 
 header h1{
-    color: white;
+    color: rgb(0, 177, 0);
     font-size: 2.5em;
     font-weight: 100; /* finita */
     font-style: italic;
@@ -26,11 +26,11 @@ header h1{
 }
 
 nav{
-    background-color: rgb(46, 172, 255);
+    background-color: rgb(8, 36, 0);
     font-style: normal;
     font-weight: 200;
     font-size: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 8px;
 }
 
 nav ul{
@@ -53,7 +53,8 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    background-color: rgb(110, 178, 255);
+    background-color: rgb(142, 255, 89);
+    color: black;
 }
 
 footer{
@@ -66,7 +67,8 @@ footer{
 }
 
 nav ul li a.activo{
-    background-color: rgb(0, 56, 119);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .holder{
@@ -75,7 +77,7 @@ nav ul li a.activo{
 }
 
 h2{
-    color: rgb(46, 171, 243);
+    color: rgb(0, 54, 14);
     font-weight: 400px;
     margin: 0 0 1em;
 }
@@ -88,9 +90,10 @@ h2{
     float: right;
 }
 
-.homeimg{
+/* .homeimg{
     margin-bottom: 1.5em;
 }
+ */
 
 .columnas{
     overflow: hidden;
@@ -107,6 +110,7 @@ h2{
 
 .testimonios{
     width: 25%;
+    margin-top: 5px;
 }
 
 .testimonio{
@@ -117,14 +121,14 @@ h2{
 .testimonio .cita{
     font-weight: bold;
     font-style: italic;
-    font-size: 1.4em;
+    font-size: 17px;
     display: block;
 }
 
 .testimonio .autor{
     font-size: 0.7em;
     text-align: center;
-    margin-left: 35%;
+    margin-left: 12px;
 }
 /* 
 fin de home 
@@ -182,6 +186,7 @@ fin de home
 /* fin seccion nosotros */
 
 /* inicio servicios */
+
 
 .servicio{
     border: 1px solid gray;
